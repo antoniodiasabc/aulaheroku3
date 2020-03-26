@@ -1,0 +1,16 @@
+2020-03-26T23:48:26.679796+00:00 app[api]: Release v1 created by user antoniodiasabc@gmail.com
+2020-03-26T23:48:27.122943+00:00 app[api]: Enable Logplex by user antoniodiasabc@gmail.com
+2020-03-26T23:48:27.122943+00:00 app[api]: Release v2 created by user antoniodiasabc@gmail.com
+2020-03-26T23:49:01.000000+00:00 app[api]: Build started by user antoniodiasabc@gmail.com
+2020-03-26T23:48:26.679796+00:00 app[api]: Initial release by user antoniodiasabc@gmail.com
+2020-03-26T23:49:27.883606+00:00 app[api]: Scaled to web@1:Free by user antoniodiasabc@gmail.com
+2020-03-26T23:49:27.868310+00:00 app[api]: Deploy 70829e1b by user antoniodiasabc@gmail.com
+2020-03-26T23:49:27.868310+00:00 app[api]: Release v3 created by user antoniodiasabc@gmail.com
+2020-03-26T23:49:31.820646+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-03-26T23:49:34.251542+00:00 app[web.1]: * Running on http://0.0.0.0:16045/ (Press CTRL+C to quit)
+2020-03-26T23:49:34.885244+00:00 heroku[web.1]: State changed from starting to up
+2020-03-26T23:49:36.000000+00:00 app[api]: Build succeeded
+2020-03-26T23:50:16.601931+00:00 heroku[router]: at=info method=GET path="/" host=immense-forest-08732.herokuapp.com request_id=69e4100b-2bef-4d98-9325-e4676d3e53af fwd="179.212.91.242" dyno=web.1 connect=0ms service=4ms status=200 bytes=522 protocol=https
+2020-03-26T23:50:16.600234+00:00 app[web.1]: 10.146.55.153 - - [26/Mar/2020 23:50:16] "GET / HTTP/1.1" 200 -
+2020-03-26T23:50:17.319031+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=immense-forest-08732.herokuapp.com request_id=8e1182d1-49cb-457a-abf2-4192dfaa63ec fwd="179.212.91.242" dyno=web.1 connect=1ms service=11ms status=404 bytes=380 protocol=https
+2020-03-26T23:50:17.317181+00:00 app[web.1]: 10.146.55.153 - - [26/Mar/2020 23:50:17] "GET /favicon.ico HTTP/1.1" 404 -
